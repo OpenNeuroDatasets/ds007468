@@ -1,0 +1,38 @@
+{
+    "onset": {
+        "Description": "Onset of audio stimulus"
+    },
+    "duration": {
+        "Description": "Mandatory column for BIDS format but irrelevant here"
+    },
+    "trial_type1": {
+        "Description": "stimulus type presented to participant",
+        "Levels": {
+            "word": "A word is presented",
+            "nonword": "A nonword is presented"
+        }
+    },
+    "trial_type2": {
+        "Description": "form type presented to participant",
+        "Levels": {
+            "concrete": "A concrete form is presented",
+            "abstract": "An abstract form is presented"
+        }
+    },
+    "stimulus": {
+        "Description": "AELP word/nonword stimulus presented"
+    },
+    "cue_onset": {
+        "Description": "Onset of response cue presented visually"
+    },
+    "response_time": {
+        "Description": "Onset of participant’s response"
+    },
+    "correct_response": {
+        "Description": "Accuracy of participant’s response to stimulus",
+        "Levels": {
+            "0": "Incorrect response",
+            "1": "Correct response"
+        }
+    }
+}
