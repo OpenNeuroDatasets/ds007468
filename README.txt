@@ -2,5 +2,7 @@ This dataset is associated with the manuscript entitled "Brain mechanisms for pr
 
 It includes raw BOLD fMRI data, field maps and structural T1 images of 24 healthy participants (3 participants were excluded: P005 and P007 - each had < 75% accuracy, and P024 - excessive motion in session 2). The task performed by participants was auditory lexical decision. 
 
+It also includes the processed fMRI data (dummy scans removed, normalised to MNI space plus smoothing).
+
 
 
